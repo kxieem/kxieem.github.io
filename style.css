@@ -304,7 +304,7 @@ button:hover{color:  teal;transition: color 0.5s; transform: scale(1.1);cursor: 
 
 /*______________________GRID DESIGN & DECOR_____________________*/
 #skills-box, #PG1-BOX2, #PG1-EXP, #PG1-AWARD , #PG1-JOB,
-#PG2-FINAL, #MEET-KP, #PG4-REF1, #PG4-REF2
+#PG2-FINAL, #MEET-KP, #PG4-REF1, #PG4-REF2, #PG5-PURPOSE, #PG5-THEME
 {grid-column: span 2;}
 
 #PG1-EDU h3 ,#PG1-VMI h2 , #PG1-EXP h1, #PG1-AWARD h2 , 
