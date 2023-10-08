@@ -1,0 +1,350 @@
+/*___________________________AUTHOR___________________________*/  
+/* 
+Name: KAIEEM PATTERSON
+ID: 2000728
+DATE: OCTOBER 6, 2023
+MODULE CODE: CIT2011
+MODULE NAME: WEB PROGRAMMING
+OCCURENCE: UM1
+ASSIGNMENT: 2
+*/
+/*___________________________MAIN STYLES___________________________*/
+body {
+   background-color: black;
+   margin: 0;
+   font-family: Arial, sans-serif;
+}
+
+button{
+   border-radius: 10px; padding: 15px;
+   background-color: black;
+   color: white;
+}
+
+
+
+
+#content {
+   margin-left: 240px;
+   padding: 20px;
+   background-image: url(../codes/assets/BG8.jpeg);
+   background-attachment: fixed;
+
+   display: grid;
+   grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+   grid-gap: 15px; 
+   font-family: Arial, sans-serif;
+}
+
+/*___________________________KAIEEM BUILDING BLOCKS________________________*/
+
+ /*<!--BLOCK ICON-A-->*/
+#insert-iconA img
+{border-radius: 10%;width: 250px;height: 150px}
+
+ /*<!--BLOCK ICON-B-->*/
+#insert-iconB img 
+{border-radius: 50%;width: 100px;height: 100px;}
+
+ /*<!--BLOCK ICON-C-->*/
+ #insert-iconC img 
+ {width: 50px;height: 50px;}
+
+#insert-buttonA a 
+{color: teal;transition: color 0.5s;transform: scale(1.1);cursor: pointer;} 
+
+
+/*___________________________KAIEEM BLOCK BEHAVIOUR________________________*/
+
+button:hover{color:  teal;transition: color 0.5s; transform: scale(1.1);cursor: pointer;}
+
+#insert-iconB:hover {transform: scale(1.1);}
+#insert-iconC:hover {transform: scale(1.1);}
+#insert-buttonA:hover {transition: color 0.5s;transform: scale(1.1);cursor: pointer;}
+
+
+
+
+
+
+/*___________________________END KAIEEM BLOCK BEHAVIOUR________________________*/
+
+
+/*___________________________NAVIGATION___________________________*/
+#left {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 220px;
+   background-color: #000D1A;
+   padding: 15px;
+   text-align: center;
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   grid-row-gap: 20px;
+   color: white;
+}
+
+#left p, #left h5 {
+   font-style: normal;
+   font-size: 0.8rem;
+}
+
+/*NAVIGATION HEADER */
+#left-head img {
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+}
+
+#left-head h2 {
+   margin: 10px 0;
+   font-size: 1.5rem;
+   color: goldenrod;
+}
+
+#left-links {
+   text-align: center;
+   color: white;
+}
+
+#left-links ul {
+   list-style: none;
+   padding: 0;
+}
+
+#left-links ul li {
+   margin-bottom: 20px;
+   margin-left: 15px;
+}
+
+#left-links ul li:hover{
+   transform: scale(1.1);
+}
+
+#left-links a {
+   color: white;
+   text-decoration: none;
+   font-size: 0.9rem;
+   font-weight: bold;
+   position: relative;
+}
+
+#left-links a:hover {
+   color:  teal;
+   transition: color: 0.5s;
+   cursor: pointer;
+}
+
+#left-foot img {
+   width: 16px;
+   height: 16px;
+   margin: 0 5px;
+}
+
+
+/*___________________________GET A BOX___________________________*/
+.HEADER-BOX {
+   background-color: black;
+   padding: 30px;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+   grid-column: span 2;
+}
+
+.BOX {
+   padding: 30px; border-radius: 5px; 
+   color: white;
+   text-align: left;
+   font-family: Arial, sans-serif;
+   display: inline-grid;
+}
+
+.BOX-gold{
+   padding: 30px; border-radius: 5px; 
+   background-color: darkcyan;
+   color: white; 
+}
+
+.BOX-gold h1,h2,h3 {text-align: center;}
+
+
+.BOX-darkTeal {
+   background-color: #0f3c4c;
+   color: white;
+   padding: 30px; border-radius: 5px;
+}
+
+.BOX-darkTeal h1,h2,h3 {text-align: center;}
+
+.BOX-dark{
+   padding: 30px; border-radius: 5px; 
+   background-color: #000D1A;
+   width: 95%;
+   font-family: Arial, sans-serif;
+   display: inline-grid;
+   color: white;
+}
+.BOX-dark h1,h2,h3 {text-align: center; color: white;}
+
+
+.BOX-IMG-BG{
+   padding: 30px; border-radius: 5px;
+   background-image: url(../codes/assets/BG5.jpg); 
+   color: white;
+}
+
+.BOX-BG-GIF{
+   padding: 30px; border-radius: 5px;
+   background-image: url(.../codes/assets/BG20.gif);
+}
+
+/*___________________________SPECIAL BOX ATTRIB_____________________*/
+.HEADER-BOX h1{
+   font-size: 60px;
+}
+
+.HEADER-BOX a{
+   color: white;
+   text-decoration: none;
+}
+
+.HEADER-BOX a:hover {
+   color: teal;
+   transition: color 0.5s;
+   cursor: pointer;
+}
+
+.BOX-gold h2 {
+   text-align: center;
+   color: white;
+}
+
+.BOX-gold p {
+   color: white;
+}
+
+#awards-box {
+   width: 99%;
+   text-align: left;
+   font-family: Arial, sans-serif;
+   display: inline-grid;
+   color: white;
+}
+
+
+
+.BOX-dark p{
+   margin-right: 20px;
+   color: white;
+}
+
+#image-box {
+    width: 100%; 
+    height: auto%;
+    background-color: #000D1A;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#image-box img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+#website-box{
+   grid-column: span 2;
+}
+
+#intro-box h1{
+   font-size: 40px;
+   margin-top: 80px;
+   text-align: left;
+   color: white;
+}
+
+#intro-box p{
+   margin-bottom: 10px;
+}
+
+#intro-box a {
+   color: white;
+   text-decoration: none;
+   font-size: 0.9rem;
+   font-weight: bold;
+   position: relative;
+}
+   
+#awards-box ul, #PG1-VMI ul{
+    list-style: none; /* Remove default list bullets */
+    padding-left: 0; /* Remove default list padding */
+}
+
+#awards-box ul li, #PG1-VMI ul li{
+    padding-left: 30px; 
+    background-image: url(../codes/assets/ICON4.png); 
+    background-size: 20px 20px; 
+    background-repeat: no-repeat;
+    background-position: 0 center; 
+    margin-bottom: 10px;
+    line-height: 20px; 
+}
+
+
+
+
+
+
+/*______________________GRID DESIGN & DECOR_____________________*/
+#skills-box, #PG1-BOX2, #PG1-EXP, #PG1-AWARD , #PG1-JOB,
+#PG2-FINAL, #MEET-KP, #PG4-REF1, #PG4-REF2
+{grid-column: span 2;}
+
+#PG1-EDU h3 ,#PG1-VMI h2 , #PG1-EXP h1, #PG1-AWARD h2 , 
+#PG1-SKILL h2 , #PG1-SUM h2, #PG1-JOB h2, #PG4-REF1 a, #PG4-REF2 a
+{color:goldenrod; }
+
+#PG1-BOX2 h1{color: darkgoldenrod;}
+
+#PG1-EDU{ text-align:center; }
+
+#PG1-BOX2 p, h3{text-align: center;color: white;}
+
+#PG1-BOX1 h1, #PG2-BOX1 h1 {color: darkcyan;}
+
+
+
+
+
+#intro-box 
+{grid-row: span 2;justify-content: center;}
+/*___________________________OTHER_____________________*/
+.star-rating {font-size: 24px;}
+
+.star {color: #ffcc00;}
+
+.star-empty {color: #ccc;}
+
+
+
+
+
+.skills-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-column {
+    flex: 1;
+    padding: 0 10px;
+    text-align: left;
+}
+
+
