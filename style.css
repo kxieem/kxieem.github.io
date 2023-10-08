@@ -27,7 +27,7 @@ button{
 #content {
    margin-left: 240px;
    padding: 20px;
-   background-image: url(../codes/assets/BG8.jpeg);
+   background-image: url(./assets/BG8.jpeg);
    background-attachment: fixed;
 
    display: grid;
@@ -191,13 +191,13 @@ button:hover{color:  teal;transition: color 0.5s; transform: scale(1.1);cursor: 
 
 .BOX-IMG-BG{
    padding: 30px; border-radius: 5px;
-   background-image: url(../codes/assets/BG5.jpg); 
+   background-image: url(./assets/BG5.jpg); 
    color: white;
 }
 
 .BOX-BG-GIF{
    padding: 30px; border-radius: 5px;
-   background-image: url(.../codes/assets/BG20.gif);
+   background-image: url(./assets/BG20.gif);
 }
 
 /*___________________________SPECIAL BOX ATTRIB_____________________*/
@@ -289,7 +289,7 @@ button:hover{color:  teal;transition: color 0.5s; transform: scale(1.1);cursor: 
 
 #awards-box ul li, #PG1-VMI ul li{
     padding-left: 30px; 
-    background-image: url(../codes/assets/ICON4.png); 
+    background-image: url(./assets/ICON4.png); 
     background-size: 20px 20px; 
     background-repeat: no-repeat;
     background-position: 0 center; 
